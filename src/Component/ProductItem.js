@@ -81,7 +81,7 @@ export default function ProductItem({ item }) {
   }
   return (
     //   container
-    <div className="d-flex container-sm bg-white px-1 py-5 mt-4 flex-column flex-lg-row gap-3">
+    <div className="d-flex container-sm bg-white px-1 py-5 mt-4 flex-column flex-lg-row gap-3 border border-dark">
       {/* left section  */}
       <ToastContainer />
       <div className="d-flex container-sm gap-5">

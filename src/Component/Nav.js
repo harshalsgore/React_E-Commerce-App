@@ -7,24 +7,13 @@ export default function Nav() {
   let total = useSelector((state) => state.totalCart);
   return (
     <nav
-      className="navbar navbar-expand-lg p-4 align-items-center"
+      className="navbar navbar-expand-lg p-2 align-items-center"
       style={style.nav}
     >
       <div className="container-fluid">
         <Link to="/" className="navbar-brand fs-3" style={style.navHead}>
           E-commerce
         </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
@@ -40,7 +29,7 @@ export default function Nav() {
           </ul>
           <div className="d-flex gap-5 position-relative">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/4290/4290854.png"
+              src="https://cdn-icons-png.flaticon.com/128/1170/1170576.png"
               alt="error"
               width={"40rem"}
               onClick={() => navigate("/cart")}
@@ -62,7 +51,7 @@ export default function Nav() {
               ""
             )}
             <img
-              src="https://cdn-icons-png.flaticon.com/512/236/236832.png"
+              src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
               alt="error"
               width={"40rem"}
             />

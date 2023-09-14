@@ -24,7 +24,7 @@ export default function CartItems() {
   if (CartItem.length === 0)
     return <h1 className="text-center mt-5">Your cart is empty</h1>;
   return (
-    <div className=" container-sm d-flex flex-column flex-lg-row mt-4 gap-3 ">
+    <div className="container-sm d-flex flex-column flex-lg-row mt-4 gap-3 ">
       <div className="d-flex flex-column gap-3">
         {CartItem.map((item) => (
           <Cart item={item} key={item.id} />
