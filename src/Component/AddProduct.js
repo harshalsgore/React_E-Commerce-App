@@ -31,7 +31,7 @@ export default function AddProduct() {
   const [thumbnail, setthumbmail] = useState("");
   const [rating, setrating] = useState("");
 
-  let url = "https://my-json-server.typicode.com/jaiswalaryan/data/products";
+  let url = "https://my-json-server.typicode.com/harshalsgore/data/products";
   function handleSubmit(e) {
     e.preventDefault();
     let result = customFetch(url, {

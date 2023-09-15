@@ -12,7 +12,7 @@ import { useEffect } from "react";
 function App() {
   let productDetailItem = useSelector((state) => state.itemToDisplay);
 
-  const url = "https://my-json-server.typicode.com/jaiswalaryan/data/db";
+  const url = "https://my-json-server.typicode.com/harshalsgore/data/db";
 
   const dispatch = useDispatch();
 
@@ -29,7 +29,7 @@ function App() {
       let products = JSON.parse(window.localStorage.getItem("products"));
       dispatch(addproducts(products));
     });
-  }, [dispatch]);
+  }, []);
 
   return (
     <div className="App">
